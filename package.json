@@ -4,8 +4,23 @@
   "description": "Paddle Billing for Node servers: webhook verification (signature + sender IPs), provider-neutral subscription events, checkout config and customer portal links.",
   "license": "MIT",
   "author": "Otters Studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otters-Studio/otters-pay-paddle.git"
+  },
+  "homepage": "https://github.com/Otters-Studio/otters-pay-paddle#readme",
+  "bugs": {
+    "url": "https://github.com/Otters-Studio/otters-pay-paddle/issues"
+  },
   "type": "module",
-  "keywords": ["paddle", "paddle-billing", "billing", "subscriptions", "webhooks", "merchant-of-record"],
+  "keywords": [
+    "paddle",
+    "paddle-billing",
+    "billing",
+    "subscriptions",
+    "webhooks",
+    "merchant-of-record"
+  ],
   "engines": {
     "node": ">=20.19"
   },
@@ -27,7 +42,11 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
